@@ -43,6 +43,17 @@ img {
   height: auto;
   width: auto\9; /* ie8 */
 }
+/* Recent addition of "div" section. What will happen? */
+div {
+
+  background-image: url("imageurl.jpg");
+
+  background-repeat: no-repeat;
+
+  background-size: contain;
+
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
