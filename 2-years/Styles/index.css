@@ -41,17 +41,7 @@ img {
   margin: 0 auto;
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
-}
-/* Recent addition of "div" section. What will happen? */
-div {
-
-  background-image: url("imageurl.jpg");
-
-  background-repeat: no-repeat;
-
-  background-size: contain;
-
+  width: 750px; /* ie8 */
 }
 
 h1, h2, h3, h4, h5, h6 {
