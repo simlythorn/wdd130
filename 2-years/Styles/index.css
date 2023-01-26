@@ -37,11 +37,11 @@ body {
   text-align: center;
 }
 img {
-  display: block;
+  display: inline-block;
   margin: 0 auto;
   max-width: 100%;
   height: auto;
-  width: 750px; /* ie8 */
+  width: 1600px;
 }
 
 h1, h2, h3, h4, h5, h6 {
