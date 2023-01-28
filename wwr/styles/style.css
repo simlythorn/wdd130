@@ -1,33 +1,10 @@
 
-body { 
-    text-indent: 0%; 
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 4em;
-    font-size: 18px;
-    text-align: center;
-    color: black;
-}
 #content {
     max-width: 1600px; 
     margin: 0 auto;
-    background-color:#FAB940;
+    background-color: #70a0af;
 }
-h1 {
-    text-align: center;
-}
-img {
-    display: block;
-    margin: 0 auto;
-    max-width: 1600px;
-}
- 
-nav {
-    background-color: var(--nav-background-color);
-    line-height: 3em;
-    text-align: center;
-    font-size: 1.2em;
-}
+
 #hero-msg h1 {
     text-align: center;
 }
@@ -48,36 +25,36 @@ section {
 }
 #background {
     height: 725px;
-    background-color:#AAA9A7;
+    background-color: #cbf3f0;
 }
 body {
-    background-color: #E2E3E1; 
+    background-color: white; 
 }
 header {
-    background-color:#2E54A2;
-    color: #FAB940;
+    background-color: #001233;
+    color: yellow;
     max-width: 1600px;
 }
 nav a:hover {
     background-color:#AAA9A7;
-    color:#2E54A2;
+    color:#001233;
 }
 .book {
-    background-color: blue;
-    color: #FAB940;
+    background-color: blueviolet;
+    color: black;
     text-decoration: none;
 }
 .join {
-    background-color: blue;
-    color: #FAB940;
+    background-color: blueviolet;
+    color: black;
     text-decoration: none;
 }
 .book:hover {
-    background-color: blue;
-    color: #FAB940;
+    background-color: #70a0af;
+    color: black;
 }
 .join:hover {
-    background-color: #FAB940;
+    background-color: black;
     color:#2E54A2;
 }
 .home-title {
@@ -85,16 +62,16 @@ nav a:hover {
 }
 nav a {
     text-align: center;
-    color: #FAB940;
+    color: yellow;
     text-decoration: none;
 }
 
 h4 {
-    color: #2E54A2;
+    color: black;
 }
 .msg {
-    color: #2E54A2;
-    background-color: #AAA9A7;
+    color: black;
+    background-color: #70a0af;
 }
 .msg h2 {
     color: black;
@@ -110,19 +87,20 @@ h4 {
 }
 #hero-img {
     width: 100%;
+    max-width: 1600px;
 }
 footer {
-    color: #2E54A2;
-    background-color: #AAA9A7;
+    color: yellow;
+    background-color: #001233;
 }
 footer a {
-    color:black;
+    color:yellow;
     text-decoration: none;
     
     
 }
 footer a:hover {
-    color: #2E54A2;
+    color: black;
 
     
 }
