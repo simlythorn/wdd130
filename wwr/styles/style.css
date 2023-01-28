@@ -1,6 +1,6 @@
 
 body { 
-    text-indent: 0%; text-align: center; color: #A69867; 
+    text-indent: 0%; 
     max-width: 1600px;
     margin: 0 auto;
     padding: 4em;
@@ -9,7 +9,9 @@ body {
     color: #AAA9A7;
 }
 #content {
+    max-width: 1600px; 
     margin: 0 auto;
+    background-color:#FAB940;
 }
 h1 {
     text-align: center;
@@ -29,7 +31,6 @@ nav {
 #hero-msg h1 {
     text-align: center;
 }
-
 #hero-msg h4 {
     text-align: center;
 }
@@ -39,9 +40,15 @@ nav {
 main section {
     text-align: center;
 }
+main {
+    text-align: center;
+}
+section {
+    text-align: center;
+}
 #background {
     height: 725px;
-    color: #FAB940;
+    background-color:#AAA9A7;
 }
 body {
     background-color: #E2E3E1; 
@@ -52,8 +59,8 @@ header {
     max-width: 1600px;
 }
 nav a:hover {
-    background-color: black;
-    color: #FAB940;
+    background-color:#AAA9A7;
+    color:#2E54A2;
 }
 .book {
     background-color: blue;
@@ -71,10 +78,10 @@ nav a:hover {
 }
 .join:hover {
     background-color: #FAB940;
-    color: #FAB940;
+    color:#2E54A2;
 }
 .home-title {
-    color: #FAB940;
+    color:#2E54A2;
 }
 nav a {
     text-align: center;
@@ -120,7 +127,7 @@ footer a:hover {
     
 }
 footer p {
-    font-size: larger;
+    font-size: 1.2em;
 }
 footer p a:hover {
     text-decoration: underline;
