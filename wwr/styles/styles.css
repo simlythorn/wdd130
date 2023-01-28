@@ -49,6 +49,7 @@ body {
 header {
     background-color:rgba(20,30,13, .7);
     color: aquamarine;
+    max-width: 1600px;
 }
 nav a:hover {
     background-color: black;
