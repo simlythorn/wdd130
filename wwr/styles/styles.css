@@ -1,12 +1,12 @@
 
 body { 
-    text-indent: 0%; text-align: center; color: aqua; 
+    text-indent: 0%; text-align: center; color: #A69867; 
     max-width: 1600px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
     text-align: center;
-    color: aquamarine;
+    color: #AAA9A7;
 }
 #content {
     margin: 0 auto;
@@ -41,53 +41,53 @@ main section {
 }
 #background {
     height: 725px;
-    color: aquamarine;
+    color: #FAB940;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #E2E3E1; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
-    color: aquamarine;
+    background-color:#2E54A2;
+    color: #FAB940;
     max-width: 1600px;
 }
 nav a:hover {
     background-color: black;
-    color: aqua;
+    color: #FAB940;
 }
 .book {
     background-color: blue;
-    color: aqua;
+    color: #FAB940;
     text-decoration: none;
 }
 .join {
     background-color: blue;
-    color: aquamarine;
+    color: #FAB940;
     text-decoration: none;
 }
 .book:hover {
     background-color: blue;
-    color: aqua;
+    color: #FAB940;
 }
 .join:hover {
-    background-color: aquamarine;
-    color: aquamarine;
+    background-color: #FAB940;
+    color: #FAB940;
 }
 .home-title {
-    color: aqua;
+    color: #FAB940;
 }
 nav a {
     text-align: center;
-    color: aqua;
+    color: #FAB940;
     text-decoration: none;
 }
 
 h4 {
-    color: bisque;
+    color: #2E54A2;
 }
 .msg {
-    color: aqua;
-    background-color: aquamarine;
+    color: #2E54A2;
+    background-color: #AAA9A7;
 }
 .msg h2 {
     color: blanchedalmond;
@@ -105,17 +105,18 @@ h4 {
     width: 100%;
 }
 footer {
-    color: blue;
-    background-color: azure;
+    color: #2E54A2;
+    background-color: #AAA9A7;
 }
 footer a {
-    color: aqua;
+    color: #A69867;
     text-decoration: none;
     
     
 }
 footer a:hover {
-    color: aquamarine;
+    color: #2E54A2;
+
     
 }
 footer p {
