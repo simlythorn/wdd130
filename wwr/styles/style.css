@@ -6,7 +6,7 @@ body {
     padding: 4em;
     font-size: 18px;
     text-align: center;
-    color: #AAA9A7;
+    color: black;
 }
 #content {
     max-width: 1600px; 
@@ -97,10 +97,10 @@ h4 {
     background-color: #AAA9A7;
 }
 .msg h2 {
-    color: blanchedalmond;
+    color: black;
 }
 .msg p {
-    color: blueviolet;
+    color: black;
 }
 .icon {
     width: 80px;
@@ -116,7 +116,7 @@ footer {
     background-color: #AAA9A7;
 }
 footer a {
-    color: #A69867;
+    color:black;
     text-decoration: none;
     
     
