@@ -1,0 +1,16 @@
+body {
+    background: yellow;
+}
+.ice-image {
+    text-align: center;
+    max-width: 200px;
+    height: 200px;
+}
+image {
+    max-width: 1600px;
+}
+#content {
+    max-width: 1600px; 
+    margin: 0 auto;
+    background-color: #70a0af;
+}
