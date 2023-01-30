@@ -1,16 +1,24 @@
 body {
-    background: yellow;
+    background: white;
 }
 .ice-image {
     text-align: center;
-    max-width: 200px;
+    max-width: 533px;
     height: 200px;
+    margin: 0 auto;
+    padding: 120px;
+    border-radius: 70%;
+    border: 4px black;
+    
 }
 image {
     max-width: 1600px;
 }
 #content {
-    max-width: 1600px; 
+    
     margin: 0 auto;
-    background-color: #70a0af;
+    background-color: grey;
+}
+footer p {
+    text-align: center;
 }
