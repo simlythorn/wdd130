@@ -7,9 +7,9 @@
 }
 
 #hero-msg {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border-left: 1px solid bisque;
+    border-right: 1px solid bisque;
+    border-bottom: 1px solid bisque;
 }
 
 #hero-msg h1 {
@@ -36,6 +36,7 @@ section {
 #background {
     height: 725px;
     background-color: #cbf3f0;
+    border-bottom: 1px solid bisque;
 }
 body {
     background-color: white; 
@@ -85,7 +86,7 @@ nav a:hover {
     color:yellow;
 }
 .home-title {
-    font-family: 'Itim', 'Roboto', sans-serif;
+    font-family:'Roboto','Itim', sans-serif;
     font-size: 2em;
     color:#2E54A2;
     margin-top: 10px;
@@ -96,7 +97,7 @@ nav a:hover {
 }
 .camping-card {
     margin: 200px 0;
-    border-bottom: 1px solid turquoise;
+    border-bottom: 1px solid bisque;
     
     
 }
@@ -126,20 +127,21 @@ h4 {
 
 .msg {
     display: block;
-    color: #001233;
-    background-color: #cbf3f0;
+    color: black;
+    background-color: white;
     padding: 45px;
     line-height: 1.5em;
-    
+    border-left: 1px solid bisque;
+    border-right: 1px solid bisque;
 }
 .msg h2 {
-    color: #001233;
+    color: #70a0af;
     font-family: 'Itim', 'Roboto', sans-serif;
     font-size: 1.5em;
 }
 .msg p {
-    color: #001233;
-    font-size: .8em;
+    color: black;
+    font-size: 1em;
     padding-bottom: 15px;
 }
 .icon {
@@ -150,7 +152,7 @@ h4 {
 .logo {
     width: 100px;
     padding-bottom: 20px;
-    border: 4px solid black;
+    /*border: 4px solid black;*/
 }
 #logo_link  {
     padding-top: 5px;
@@ -158,9 +160,9 @@ h4 {
 #hero_img {
     width: 100%;
     max-width: 1600px;
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-top: 1px solid black;
+    border-left: 1px solid bisque;
+    border-right: 1px solid bisque;
+    border-top: 1px solid bisque;
 }
 .social img{
     padding-top: 15px;
