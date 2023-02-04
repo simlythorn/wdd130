@@ -6,8 +6,15 @@
     background-color: #70a0af;
 }
 
+#hero-msg {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
 #hero-msg h1 {
     text-align: center;
+
 }
 h1 {
     text-align: center;
@@ -89,6 +96,8 @@ nav a:hover {
 }
 .camping-card {
     margin: 200px 0;
+    border-bottom: 1px solid turquoise;
+    
     
 }
 .rapids-card {
@@ -116,6 +125,7 @@ h4 {
 }
 
 .msg {
+    display: block;
     color: #001233;
     background-color: #cbf3f0;
     padding: 45px;
@@ -140,6 +150,7 @@ h4 {
 .logo {
     width: 100px;
     padding-bottom: 20px;
+    border: 4px solid black;
 }
 #logo_link  {
     padding-top: 5px;
@@ -147,6 +158,9 @@ h4 {
 #hero_img {
     width: 100%;
     max-width: 1600px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
 }
 .social img{
     padding-top: 15px;
@@ -155,8 +169,11 @@ h4 {
     padding-top: 15px;
 
 }*/
-.mountains img {
-    text-align: 0;
+.mountains {
+    height: 533;
+    width: 800;
+    display: block;
+    
 }
 footer {
     color: yellow;
