@@ -47,6 +47,13 @@ img {
   margin-right: auto;
 
 }
+.wireframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
