@@ -39,9 +39,11 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  width: 1400px 1200px;
 }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--heading-font);
+  font-family: Rock Salt;
   color: var(--headline-color-on-white);
 }
 h2 {
@@ -63,7 +65,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-family: Roboto;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }
