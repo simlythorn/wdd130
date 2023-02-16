@@ -38,8 +38,26 @@ body {
 }
 img {
   display: block;
+<<<<<<< HEAD
   margin: 0 auto;
   width: 1400px 1200px;
+=======
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.wireframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+
+>>>>>>> 558c51341748c56b413359c3fc03d595bcc516e4
 }
 
 h1, h2, h3, h4, h5, h6 {
