@@ -16,19 +16,21 @@ h2 {
     background-color: #70a0af;
 }
 header {
-    z-index: 4;
+    /*z-index: 4; */
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: rgba(24, 20, 80, 0.6);
-    border: 1px yellow;
+    background-color: #70a0af;
+    border: 1px white;
     color: yellow;
     max-width: 1600px;
     font-family: 'Itim', 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.25em;
+    padding: 5px;
+    
 }
 .logo {
-    width: 200px;
-    padding-bottom: 20px;
+    width: 150px;
+    padding-bottom: 50px;
     margin-left: 100px;
     z-index: 3;
     /*border: 4px solid black;*/
@@ -40,17 +42,17 @@ header {
     z-index: 3;
 }
 nav a:hover {
-    background-color:white;
+    background-color:blue;
     color:yellow;
 }
 nav {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 100px;
-    padding: 100px auto;
+    padding: 200px;
     align-items: flex-end;
     z-index: 3;
 }
@@ -59,7 +61,8 @@ nav a {
     color: yellow;
     text-decoration: none;
     text-align: center;
-    padding: 35px; 
+    padding: 20px; 
+    
 }
 #hero {
     display: grid;
@@ -84,7 +87,7 @@ nav a {
     grid-column: 2/3;
     grid-row: 1/2;
     z-index: 2;
-    margin-top: 200px;
+    margin-top: 50px;
 }
 #hero-msg h4 {
     text-align: center;
@@ -100,25 +103,25 @@ h1 {
     font-size: 1.5em;
 }
 .home-title {
-    font-family:'Roboto','Itim', sans-serif;
+    font-family:'Rock salt','Itim', sans-serif;
     font-size: 2em;
-    color:#2E54A2;
+    color: yellow;
     margin-top: 10px;
 }
 .button-box {
     text-align: center;
 }
 .book {
-    background-color: blueviolet;
-    color: black;
+    background-color: blue;
+    color: yellow;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 35px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
 .book:hover {
-    background-color: black;
+    background-color: #70a0af;
     color: yellow;
 }
 main {
@@ -206,7 +209,7 @@ section {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
     height: 300px;
-    width: 80%;
+    width: 100%;
 }
 .msg h2 {
     color: #70a0af;
@@ -215,23 +218,23 @@ section {
 }
 .msg p {
     color: black;
-    font-size: 1.1em;
+    font-size: 1em;
     padding-bottom: 10px;
     padding-inline-start: 10px;
     padding: 10px;  
 }
 .join {
-    background-color: blueviolet;
+    background-color: blue;
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
 }
 .join:hover {
-    background-color: black;
-    color:yellow;
+    background-color: #70a0af;
+    color: yellow;
 }
 footer {
     color: yellow;
@@ -267,8 +270,9 @@ footer p a:hover {
         display: block;
         height: auto;
     }
-    nav, footer {
+    nav {
         flex-direction: column;
+        padding: auto;
     }
     nav a {
         display: block;
@@ -294,13 +298,23 @@ footer p a:hover {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains  { 
         width: 80%;
         display: block;
         margin: 0 auto;
     }
+    .msg  {
+        width: 80%;
+        height: 3
+        
+        00px;
+        display: block;
+        margin: 0 auto;
+        
+    }
     footer {
         margin-top: 25px;
+        flex-direction: column;
     }
 }
             
