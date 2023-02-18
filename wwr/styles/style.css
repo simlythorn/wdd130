@@ -270,8 +270,9 @@ footer p a:hover {
         display: block;
         height: auto;
     }
-    nav, footer {
+    nav {
         flex-direction: column;
+        padding: auto;
     }
     nav a {
         display: block;
@@ -311,6 +312,7 @@ footer p a:hover {
     }
     footer {
         margin-top: 25px;
+        flex-direction: column;
     }
 }
             
