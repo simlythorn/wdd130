@@ -16,7 +16,7 @@ h2 {
     background-color: #70a0af;
 }
 header {
-    z-index: 4;
+    /*z-index: 4; */
     display: grid;
     grid-template-columns: 150px auto;
     background-color: rgba(24, 20, 80, 0.6);
@@ -24,10 +24,10 @@ header {
     color: yellow;
     max-width: 1600px;
     font-family: 'Itim', 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.25em;
 }
 .logo {
-    width: 200px;
+    width: 100px;
     padding-bottom: 20px;
     margin-left: 100px;
     z-index: 3;
@@ -100,9 +100,9 @@ h1 {
     font-size: 1.5em;
 }
 .home-title {
-    font-family:'Roboto','Itim', sans-serif;
+    font-family:'Rock salt','Itim', sans-serif;
     font-size: 2em;
-    color:#2E54A2;
+    color: yellow;
     margin-top: 10px;
 }
 .button-box {
@@ -206,7 +206,7 @@ section {
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
     height: 300px;
-    width: 80%;
+    width: 100%;
 }
 .msg h2 {
     color: #70a0af;
@@ -215,7 +215,7 @@ section {
 }
 .msg p {
     color: black;
-    font-size: 1.1em;
+    font-size: 1em;
     padding-bottom: 10px;
     padding-inline-start: 10px;
     padding: 10px;  
