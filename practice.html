@@ -1,0 +1,145 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu li {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+.banner img {
+  width: inherit;
+}
+
+.button {
+   display:inline-block; 
+   padding:.5em .75em; 
+   color:white; 
+   background-color:#008CBA; 
+   border-radius:.25em; 
+   text-decoration:none; 
+   font-family:sans-serif; 
+   font-size:.9em
+ }
+
+.section {
+   padding:.5em .75em; 
+   color:black; 
+   background-color:white; 
+   border-radius:.25em; 
+   text-decoration:none; 
+   font-family:sans-serif; 
+ }
+
+.section h2 {
+    font-size:1.5em
+ }
+
+.section p {
+    font-size:.9em
+ }
+
+.grid-container {
+    display:flex
+ }
+
+.grid-item {
+    flex-basis:auto
+ }
+</style>
+</head>
+<body>
+
+<div class="header">
+<ul class="menu">
+<li><img src="logo.png" alt="Logo" class="logo"></li>
+<li><a href="#">Trips</a></li>
+<li><a href="#">Destinations</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Contact Us</a></li>
+</ul>
+</div>
+
+<div class="banner">
+<img src="banner.jpg" alt="Banner">
+<a href="#" class="button">Explore Our Trips</a>
+</div>
+
+<div class="section">
+<h2>Why Choose Us?</h2>
+<p>We are one of the first and most respected outfitters in the industry.</p>
+<p>We have over 50 years of experience and expertise in whitewater rafting.</p>
+<p>We offer trips and tours on over 10 rivers around the world.</p>
+
+<h2>What Our Customers Say?</h2>
+
+<div class="grid-container">
+<div class="grid-item"><img src="test1.jpg" alt="Testimonial1"></div>  
+<div class="grid-item"><img src="test2.jpg" alt="Testimonial2"></div>  
+<div class="grid-item"><img src="test3.jpg" alt="Testimonial3"></div>  
+</div>
+
+<h2>Our Popular Destinations and Trip Types?</h2>
+
+<div class="grid-container">
+<div class="grid-item"><img src="dest1.jpg" alt="Destination1"></div>  
+<div class="grid-item"><img src=dest2.jpg" alt=Destination2"></div>  
+<div class=grid-item><img src=dest3.jpg" alt=Destination3"></div>  
+</div>
+
+<h2>Our Latest Blog Posts and Social Media Updates?</h2>
+
+<div class=grid-container">
+<div class=grid-item><img src=post1.jpg" alt=Post1"></div>  
+<div class=grid-item><img src=post2.jpg" alt=Post2"></div>  
+<div class=grid-item><img src=post3.jpg" alt=Post3"></div>  
+</div>
+
+<h2>Follow Us On:</h2>
+
+<ul class=social-media">
+<li><a href="#"><img src=f.png" alt=Facebook"></a></li>
+<li><a href="#"><img src=t.png" alt=Twitter"></a></li>
+<li><a href="#"><img src=i.png" alt=Instagram"></a></li>
+<li><a href="#"><img src=y.png" alt=Youtube"></a></li>
+
+
+</ul>
+
+
+</div>
+
+
+<footer style=text-align:center;padding-top:.5em;padding-bottom:.5em;background-color:#f0f0f0;color:#808080;font-family:sans-serif;font-size:.8em">
+
+<p>Contact us at (800)123-4567 or email us at info@whitewaterrafting.com </p>
+
+<p>&copy2023 Whitewater Rafting LLC.
