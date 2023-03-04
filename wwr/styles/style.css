@@ -7,9 +7,7 @@ body {
     margin: 0;
     padding: 0;
 }
-h2 {
-    margin: 0;
-}
+
 #content {
     max-width: 1600px; 
     margin: 0 auto;
@@ -326,4 +324,54 @@ footer p a:hover {
         flex-direction: column;
     }
 }
-            
+
+
+
+/* PAGE 2 RATES AND DATES CSS BELOW:*/
+
+
+.h1_fonts {text-align: center;
+    color: black;
+    text-decoration: underline;
+   
+}
+
+.h2_fonts {text-align: center;
+    color: black;
+
+}    
+
+.photos_grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+    height: auto;
+
+}
+
+.blue_white {
+    grid-column: 2/3;
+    border: 5px;
+    border-color: bisque;
+}
+
+.green_rainbow {
+    gird-column: 4/5;
+    border: 5px;
+    border-color: bisque;
+}
+
+.calendar_grid {
+    display: grid;
+    grid-template-columns: (17,1fr);
+    grid-template-rows: (6,1fr);
+    
+}
+
+.calendar_border {
+    border: 2px;
+    border-color: black;
+    grid-column: 2/8;
+    grid-column: 9/16;
+    grid-row: 2/7
+
+}
