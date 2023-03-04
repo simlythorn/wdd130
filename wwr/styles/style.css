@@ -60,7 +60,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     /*padding: 20px; */
-    padding 35px;
+    padding: 35px;
     
 }
 #hero {
@@ -333,6 +333,9 @@ footer p a:hover {
 .h1_fonts {text-align: center;
     color: black;
     text-decoration: underline;
+    margin: 100px;
+    font-size: 3em;
+
    
 }
 
@@ -345,6 +348,8 @@ footer p a:hover {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     height: auto;
+    margin-top: 100px;
+
 
 }
 
@@ -353,10 +358,7 @@ footer p a:hover {
     height: 100%;
     object-fit: cover;
     grid-column: 2/3;
-    border: 5px;
-    border-color: bisque;
-
-
+    border: 5px solid bisque;
 }
 
 .blue_description {
@@ -364,8 +366,7 @@ footer p a:hover {
     height: 100%;
     grid-column: 2/3;
     grid-row: 2/3;
-    border: 5px;
-    border-color: bisque; 
+    padding: 10px;
 
 }
 
@@ -374,8 +375,7 @@ footer p a:hover {
     height: 100%;
     object-fit: cover;
     grid-column: 4/5;
-    border: 5px;
-    border-color: bisque;
+    border: 5px solid bisque;
 
 }
 
@@ -384,8 +384,7 @@ footer p a:hover {
     height: 100%;
     grid-column: 4/5;
     grid-row: 2/3;
-    border: 5px;
-    border-color: bisque; 
+    padding: 10px;
 
 }
 
@@ -394,8 +393,8 @@ footer p a:hover {
     height: 100%;
     object-fit: cover;
     grid-column: 2/3;
-    border: 5px;
-    border-color: bisque;
+    border: 5px solid bisque;
+
 }
 
 .white_description {
@@ -403,9 +402,7 @@ footer p a:hover {
     height: 100%;
     grid-column: 2/3;
     grid-row: 2/3;
-    border: 5px;
-    border-color: bisque; 
-
+    padding: 10px;
 }
 
 .rainbow {
@@ -413,39 +410,124 @@ footer p a:hover {
     height: 100%;
     object-fit: cover;
     grid-column: 4/5;
-    border: 5px;
-    border-color: bisque;
+    border: 5px solid bisque;
+
 }
+
 
 .rainbow_description {
     width: 100%;
     height: 100%;
     grid-column: 4/5;
     grid-row: 2/3;
-    border: 5px;
-    border-color: bisque; 
-
+    padding: 10px;
 }
 
 .calendar_grid {
-    padding: 50px;
+
     display: grid;
-    grid-template-columns: repeat(17,1fr);
-    grid-template-rows: repeat(6,1fr);
-    display: inline
-    border: 5px solid black;
-    border-color: black;
-    z-index: 2;
-    
+    grid-template-columns: 1fr 7fr 1fr 7fr 1fr;
+        
+}
+
+
+
+.month1 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+
+
+}
+
+.month2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+
+}
+
+.month1_grid {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 8px solid black;
+
+}
+
+.month2_grid {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    border: 8px solid black;
+
+}
+
+.day1 {
+
+    color: black;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 0.5em;
+
+
+}
+
+.day2 {
+
+    color: black;
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    font-size: 0.5em;
+
 }
 
 .date {
     background-color: white;
     color: black;
-    border: 5px solid black;
-    border-style: solid;
-    border: 5px;
-    border-color: black;
-    z-index: 3;
+    text-align: left;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+.event {
+    text-align: center;
 
 }
+
+footer {
+    color: yellow;
+    background-color: #001233;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
