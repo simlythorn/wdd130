@@ -396,6 +396,7 @@ footer p a:hover {
 }
 
 .calendar_border {
+    border-style: solid;
     border: 2px;
     border-color: black;
     grid-column: 2/8;
