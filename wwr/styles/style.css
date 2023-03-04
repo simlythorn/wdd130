@@ -359,6 +359,16 @@ footer p a:hover {
 
 }
 
+.blue_description {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 5px;
+    border-color: bisque; 
+
+}
+
 .green {
     width: 100%;
     height: 100%;
@@ -366,6 +376,16 @@ footer p a:hover {
     grid-column: 4/5;
     border: 5px;
     border-color: bisque;
+
+}
+
+.green_description {
+    width: 100%;
+    height: 100%;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    border: 5px;
+    border-color: bisque; 
 
 }
 
@@ -378,6 +398,15 @@ footer p a:hover {
     border-color: bisque;
 }
 
+.white_description {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 5px;
+    border-color: bisque; 
+
+}
 
 .rainbow {
     width: 100%;
@@ -388,19 +417,35 @@ footer p a:hover {
     border-color: bisque;
 }
 
+.rainbow_description {
+    width: 100%;
+    height: 100%;
+    grid-column: 4/5;
+    grid-row: 2/3;
+    border: 5px;
+    border-color: bisque; 
+
+}
+
 .calendar_grid {
+    padding: 50px;
     display: grid;
-    grid-template-columns: (17,1fr);
-    grid-template-rows: (6,1fr);
+    grid-template-columns: repeat(17,1fr);
+    grid-template-rows: repeat(6,1fr);
+    display: inline
+    border: 5px solid black;
+    border-color: black;
+    z-index: 2;
     
 }
 
-.calendar_border {
+.date {
+    background-color: white;
+    color: black;
+    border: 5px solid black;
     border-style: solid;
-    border: 2px;
+    border: 5px;
     border-color: black;
-    grid-column: 2/8;
-    grid-column: 9/16;
-    grid-row: 2/7
+    z-index: 3;
 
 }
