@@ -512,7 +512,7 @@ footer {
     .home-title {
         font-size: 25px;
         color: #6f7364;
-        margin-top: -100px;
+        margin-top: -50px;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
@@ -574,7 +574,7 @@ footer {
 
     }
     footer {
-        margin-top: 25px;
+        margin-top: 50px;
         flex-direction: column;
     }
 }
