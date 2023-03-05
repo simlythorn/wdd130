@@ -272,74 +272,23 @@ footer p a:hover {
 }
 
 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav {
-        flex-direction: column;
-        padding: auto;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains  { 
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    .msg  {
-        width: 80%;
-        height: 3
-        
-        00px;
-        display: block;
-        margin: 0 auto;
-        
-    }
-    footer {
-        margin-top: 25px;
-        flex-direction: column;
-    }
-}
-
-
 
 /* PAGE 2 RATES AND DATES CSS BELOW:*/
 
 
-.h1_fonts {text-align: center;
+.h1_fonts {
+    text-align: center;
     color: black;
     text-decoration: underline;
-    margin: 100px;
+    margin-top: 120px;
+    margin-bottom: 100px;
     font-size: 3em;
 
    
 }
 
-.h2_fonts {text-align: center;
+.h2_fonts {
+    text-align: center;
     color: black;
 
 }    
@@ -349,6 +298,7 @@ footer p a:hover {
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
     height: auto;
     margin-top: 100px;
+    padding: 10px;
 
 
 }
@@ -490,7 +440,7 @@ footer p a:hover {
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    font-size: 0.5em;
+    font-size: 0.75em;
 
 
 }
@@ -502,7 +452,7 @@ footer p a:hover {
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    font-size: 0.5em;
+    font-size: 0.75em;
 
 }
 
@@ -530,4 +480,66 @@ footer {
     align-items: center;
     flex-direction: row;
 }
+
+
+
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav {
+        flex-direction: column;
+        padding: auto;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains  { 
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .msg  {
+        width: 80%;
+        height: 3
+        
+        00px;
+        display: block;
+        margin: 0 auto;
+        
+    }
+    .calendar_grid  {
+        grid-template-columns: 1fr 7fr 1fr;
+
+    }
+
+
+    footer {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+}
+
 
