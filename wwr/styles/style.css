@@ -122,8 +122,8 @@ h1 {
     background-color: blue;
     color: yellow;
     text-decoration: none;
-    font-size: 35px;
-    padding: 15px 30px;
+    font-size: 20px;
+    padding: 10px 20px;
     margin-top: 50px;
     border-radius: 5px;
 }
@@ -234,8 +234,8 @@ section {
     background-color: blue;
     color: black;
     text-decoration: none;
-    font-size: 22px;
-    padding: 15px 30px;
+    font-size: 20px;
+    padding: 10px 20px;
     margin-top: 50px;
     border-radius: 5px;
 }
@@ -490,7 +490,7 @@ footer {
     }
     nav {
         flex-direction: column;
-        padding: auto;
+        /*padding: auto;*/
     }
     nav a {
         display: block;
@@ -524,9 +524,10 @@ footer {
     }
     .msg  {
         width: 80%;
-        height: 300px;
+        /*height: 400px;*/
         display: block;
         margin: 0 auto;
+        
         
     }
 
@@ -578,7 +579,7 @@ footer {
     }
     footer {
         margin-top: 50px;
-        flex-direction: column;
+        /*flex-direction: column;*/
     }
 }
 
