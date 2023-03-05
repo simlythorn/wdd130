@@ -483,7 +483,7 @@ footer {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -523,9 +523,7 @@ footer {
     }
     .msg  {
         width: 80%;
-        height: 3
-        
-        00px;
+        height: 300px;
         display: block;
         margin: 0 auto;
         
