@@ -483,7 +483,7 @@ footer {
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
@@ -533,7 +533,12 @@ footer {
 
     }
 
+    .month2_grid {
+        grid-column-start: 2;
+        grid-column-end: 3;
 
+    }
+    
     footer {
         margin-top: 25px;
         flex-direction: column;
