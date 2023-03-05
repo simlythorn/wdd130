@@ -98,7 +98,7 @@ nav a {
 
 }
 h1 {
-    color:white;
+    color:#6f7364;
     text-align: center;
     font-size: 1.5em;
     display: block;
@@ -110,8 +110,8 @@ h1 {
 }
 .home-title {
     font-family:'Rock salt','Itim', sans-serif;
-    font-size: 2em;
-    color: yellow;
+    font-size: 1.5em;
+    color: white;
     margin-top: 0px;
     z-index: 3;
 }
@@ -140,7 +140,7 @@ main section img {
 
 h4 {
     color: black;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 section {
     text-align: center;
@@ -210,8 +210,8 @@ section {
     background-color: white;
     padding: 40px;
     line-height: 1.5em;
-    border-left: 1px solid bisque;
-    border-right: 1px solid bisque;
+    /*border-left: 1px solid bisque;
+    border-right: 1px solid bisque;*/
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
@@ -221,18 +221,18 @@ section {
 .msg h2 {
     color: #70a0af;
     font-family: 'Itim', 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .msg p {
     color: black;
     font-size: 1em;
-    padding-bottom: 10px;
-    padding-inline-start: 10px;
-    padding: 10px;  
+    padding-bottom: 5px;
+    padding-inline-start: 5px;
+    padding: 5px;  
 }
 .join {
     background-color: blue;
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 20px;
     padding: 10px 20px;
@@ -579,7 +579,7 @@ footer {
     }
     footer {
         margin-top: 50px;
-        /*flex-direction: column;*/
+        flex-direction: column;
     }
 }
 
