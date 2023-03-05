@@ -508,6 +508,7 @@ footer {
     .home-title {
         font-size: 25px;
         color: #6f7364;
+        margin-top: -100px;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
@@ -527,6 +528,11 @@ footer {
         display: block;
         margin: 0 auto;
         
+    }
+
+    .home-grid  {
+        margin-bottom: 100px;
+
     }
     .calendar_grid  {
         display: grid;
