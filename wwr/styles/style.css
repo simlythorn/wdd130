@@ -538,7 +538,20 @@ footer {
         grid-column-end: 3;
 
     }
-    
+
+    .day1  {
+        font-size: 0.5em;
+    }
+
+    .day2  {
+        font-size: 0.5em;
+
+    }
+
+    .event  {
+        font-size: 0.75em;
+        
+    }
     footer {
         margin-top: 25px;
         flex-direction: column;
