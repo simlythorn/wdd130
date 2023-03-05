@@ -534,6 +534,12 @@ footer {
 
     }
 
+    .month2  {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+    }
+
     .month2_grid {
         grid-column-start: 2;
         grid-column-end: 3;
