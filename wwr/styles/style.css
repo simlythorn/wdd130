@@ -14,10 +14,9 @@ body {
     background-color: #70a0af;
 }
 header {
-    /*z-index: 4; */
     display: grid;
     grid-template-columns: 150px auto;
-    background-color: #70a0af;
+    background-color: #001233;
     /*border: 1px white;*/
     color: yellow;
     /*max-width: 1600px;*/
@@ -66,7 +65,7 @@ nav a {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -230px;
+    margin-top: 0px;
     height: auto;
 }
 
@@ -91,6 +90,7 @@ nav a {
 #hero-msg h4 {
     text-align: center;
     color: white;
+    margin-top: 0px;
     
 }
 #hero-msg h1 {
@@ -112,7 +112,7 @@ h1 {
     font-family:'Rock salt','Itim', sans-serif;
     font-size: 2em;
     color: yellow;
-    margin-top: 200px;
+    margin-top: 0px;
     z-index: 3;
 }
 .button-box {
@@ -537,16 +537,16 @@ footer {
     .month2  {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 8;
-        grid-row-end: 9;
+        grid-row-start: 9;
+        grid-row-end: 10;
 
     }
 
     .month2_grid {
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 9;
-        grid-row-end: 10;
+        grid-row-start: 10;
+        grid-row-end: 11;
 
     }
 
