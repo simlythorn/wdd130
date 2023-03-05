@@ -529,6 +529,7 @@ footer {
         
     }
     .calendar_grid  {
+        display: grid;
         grid-template-columns: 1fr 7fr 1fr;
 
     }
@@ -550,7 +551,7 @@ footer {
 
     .event  {
         font-size: 0.75em;
-        
+
     }
     footer {
         margin-top: 25px;
