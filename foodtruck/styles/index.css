@@ -101,24 +101,27 @@ nav a {
   color: #FFB703;
   
 }
-#body-top img {
+/*#body-top img {
   margin: 50px;
   border-style:ridge;
   text-align: center;
+}*/
+#img {
+  display: grid;
+  grid-template-columns: 10% 40% 40% 10%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+#body-img1 {
+  grid-column: 2/3;
+  border-style:ridge;
   
 }
-/*#body-img1 {
-  grid-column: 2/3 auto;
-  margin: 100px;
+#body-img2 {
+  grid-column: 3/4;
   border-style:ridge;
   text-align: center;
 }
-#body-img2 {
-  grid-column: 3/4 auto;
-  margin: 100px;
-  border-style:ridge;
-  text-align: center;
-}*/
 #recomment-msg p {
   margin-left: 150px;
   margin-right: 150px;
