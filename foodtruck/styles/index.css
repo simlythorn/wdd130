@@ -24,7 +24,7 @@
 }
 body {
   background-color: white;
-  font-family: 'Roboto', 'Hevetica', sans-serif;
+  font-family: 'Roboto', 'Kanit', sans-serif;
   font-size: 20px;
   
 }
@@ -38,8 +38,8 @@ header {
   grid-template-columns: 20% 60% 20%;
   grid-template-rows: 12.5%;
   background-color: #14213D;
-  color: #FFB703;
-  font-family: 'Hevetica', 'Roboto', sans-serif;
+  color: white;
+  font-family: 'Kanit', 'Roboto', sans-serif;
   font-size: 20px;
   height: 150px;
 }
@@ -65,6 +65,7 @@ header {
   display: block;
 }
 h4 {
+  font-family: 'Roboto';
   margin-top: 30px;
   margin-bottom: 30px;
   grid-column: 2/3;
@@ -78,14 +79,16 @@ h4 {
   font-size: 30px;
 }
 #body-top h1 {
+  font-family: 'Rock Salt';
   margin-top: 70px;
   text-align: center;
 }
 #body-msg h2 {
+  font-family: 'Kinit';
   text-align: center;
 }
 nav a:hover {
-  background-color: white;
+  background-color:#FFB703;
   color:#14213D;
   padding: 10px;
 }
@@ -99,7 +102,7 @@ nav a {
   display: inline;
   text-decoration: none;
   font-size: 22px;
-  color: #FFB703;
+  color: wheat;
   
 }
 /*#body-top img {
@@ -139,7 +142,7 @@ nav a {
   margin-right: 150px;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: white;
+  background-color: wheat;
   padding: 20px;
   
 }
