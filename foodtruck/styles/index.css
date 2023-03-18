@@ -193,15 +193,102 @@ section p {
   display: block;
 }
 
-/*#instruction p{
-  border-radius: 15px;
-  background-color: wheat;
-  font-size: 15px;
-
-}*/
 section h5 {
   text-align: center;
 }
+/* menu */
+.menu-msg {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  margin-left: 100px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.menu-msg img {
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+}
+.menu-top h1 {
+  text-align: center;
+  color: #14213D;
+}
+.fried-noodle {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.fried-rice {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.crispy-rice {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.salad {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+.khmer-noodle {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.amok-fish {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.sugar-cane {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+.passion-juice {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+.one p {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.food2 p {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.crispy-rice p {
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.salad p {
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.khmer-noodle p {
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+.amok-fish p {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+.food7 p {
+  grid-column: 4/5;
+  grid-row: 3/4;
+}
+.food8 p {
+  grid-column: 4/5;
+  grid-row: 4/5;
+}
+
+
+
+
+
+
+
+
+
 footer {
   color:#FFB703;
   background-color:#14213D;
