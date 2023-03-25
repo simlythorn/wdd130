@@ -236,8 +236,8 @@ section h5 {
 .menu-top h1 {
   text-align: center;
   color: #14213D;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 200px;
+  margin-bottom: 100px;
   font-family: 'Rock Salt';
 }
 .menu-msg h2 {
@@ -247,10 +247,13 @@ section h5 {
   margin-right: 10px;
   font-family: 'sans-serif';
 }
-.menu-msg h1 {
+.menu-msg h {
   text-decoration: underline;
   text-align: center;
   color: wheat;
+  font-family: 'Rock Salt';
+  font-size: 25px;
+  margin-left: 80px;
 }
 .fried-noodle {
   grid-column: 1/2;
