@@ -180,6 +180,7 @@ section p {
   position: relative;
   display: inline-block;
   margin-left: 80px;
+  text-decoration: underline;
 }
 #dropdown-ingredient {
   display: none;
@@ -197,6 +198,7 @@ section p {
   position: relative;
   display: inline-block;
   margin-left: 80px;
+  text-decoration: underline;
 }
 #dropdown-instruction {
   display: none;
@@ -214,6 +216,7 @@ section p {
   position:relative;
   display: inline-block;
   margin-left: 80px;
+  text-decoration: underline;
 }
 #dropdown-equipment {
   display: none;
@@ -353,6 +356,12 @@ section h5 {
   grid-row: 4/5;
   color: #14213D;
 }
+
+.schedule-top h1 {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  color: #390099;
+}
 .caption-container {
   text-align: center;
   background-color: wheat;
@@ -464,6 +473,44 @@ body {font-family: Verdana, sans-serif;}
   height: 300px;
   perspective: 1000px;
 }
+
+.event1,.event2, .event3, .event4{
+  position: relative;
+  display: inline-block;
+  margin-left: 80px;
+  text-decoration: underline;
+  
+}
+.event1 h3, .event2 h3, .event3 h3, .event4 h3 {
+  font-size: 30px;
+  font-family: 'Arial';
+  color: #390099;
+  margin-top: 200px;
+}
+.event1 p, .event2 p, .event3 p, .event4 p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+.dropdown-event1, .dropdown-event2, .dropdown-event3, .dropdown-event4 {
+  display: none;
+  position: absolute;
+  background-color: wheat;
+  width: 500px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 15px;
+  box-sizing:content-box;
+  
+}
+.event1:hover .dropdown-event1, .event2:hover .dropdown-event2, .event3:hover .dropdown-event3, .event4:hover .dropdown-event4 {
+  display: block;
+  margin-right: 100px;
+}
+
+
+
 
 .flip-card-inner {
   position: relative;
